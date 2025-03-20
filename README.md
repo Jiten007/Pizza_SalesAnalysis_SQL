@@ -16,7 +16,7 @@ The dataset consists of **4 tables**:
 -   **orders** – Stores order details (`order_id`, `date`, `time`)
 -   **order_details** – Stores each order’s pizzas (`order_id`, `pizza_id`, `quantity`)
 -   **pizzas** – Contains pizza details (`pizza_id`, `price`, `size`)
--   **pizza_types** – Stores pizza names, categories, and ingredients (`pizza_type_id`)
+-   **pizza_types** – Pizza info (`category`,`ingredients`,`name`,`pizza_type_id`)
 
 📷 **Schema Diagram:**  
 ![Schema Diagram](Data_Schema.jpg)
